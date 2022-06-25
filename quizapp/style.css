@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+}
+
+.backImage{
+    background-image:url('mark.jpg') ;
+    background-size: cover;
+    /* background-attachment:fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.startbtndiv{
+    padding: 20px 20px 20px 20px;
+    width: 10%;
+    position: relative;
+    top: 44%;
+    left: 48%;
+    
+}
+
+.startbtn{
+    width: 10vw;
+    height: 10vh;
+    background-color: rgb(78, 170, 223);
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0px 0px 3px 3px rgb(10, 10, 15);
+}
+
+/* @media screen and (max-width: 1324px){
+    .backImage{
+        background-size: contain;
+        background-position: center;
+        
+    }
+} */
+
+
+.main{
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    top: 16%;
+    left: 23%;
+    width: 66vw;
+    height: 65vh;
+    color: #FFFFFF;
+    border-radius: 15px ;
+    box-shadow: 0px 0px 3px 0px rgb(63, 164, 223);
+    display: flex;
+    flex-direction: column; 
+}
+
+.questionNumber{
+    font-size: 60px;
+    color: rgb(47, 154, 204);
+}
+
+.question{
+    font-size: 30px;
+    color: rgb(47, 154, 204);
+}
+
+.answers{
+    font-size: 30px;
+    color: rgb(47, 154, 204);
+}
+
+.optionAns{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.active, .optionAns:hover{
+    background-color: #4b92c2 ;
+    color: white;
+}
+
+.buttonDiv{
+    margin: auto;
+    box-shadow: 2px 2px 2px 2px red;
+    width: 30%;
+    height: 10%;
+    border-radius: 5px;
+    border-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nextbtn{
+    background-color: #4b92c2;
+    border-color: rgb(244, 246, 247);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.submitbtn{
+    background-color: #4b92c2;
+    border-color: rgb(244, 246, 247);
+    border-radius: 5px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.scoreDiv{
+    padding: 20px 20px 20px 20px;
+    width: 30%;
+    position: relative;
+    top: 44%;
+    left: 40%;
+    align-content: center;
+    box-shadow: 2px 2px 2px 2px red;
+    border-radius: 5px;
+    
+    font-size: 40px;
+    color: rgb(47, 154, 204);
+}

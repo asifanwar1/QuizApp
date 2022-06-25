@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="backImage">
+
+       <div class="startbtndiv" id="startbtndiv" style= "display: block">
+            <button class="startbtn" id="startbtn">Start Quiz</button>
+       </div> 
+
+        <div class="main" id="mainDiv" style= "display: none"> 
+            <div class="questionNumber">
+                <p id="qNum">Question: 1</p>
+            </div>
+            <div class="question">
+                <p id="que">Question goes here</p>
+            </div>
+            <div class="answers">
+                <p class="optionAns ">Answer 1 goes here</p>
+                <p class="optionAns ">Answer 1 goes here</p>
+                <p class="optionAns ">Answer 1 goes here</p>
+                <p class="optionAns ">Answer 1 goes here</p>
+            </div>
+            <div class="buttonDiv">
+                <button class="nextbtn" id="nextbtn" style= "display: block">Next Question</button>
+                <button class="submitbtn" id="submitbtn" style= "display: none">Submit</button>
+            </div>
+        </div>
+        <div class="scoreDiv" id="scoreCard" style="display: none">
+            <p id="displayScore">Your score is </p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
